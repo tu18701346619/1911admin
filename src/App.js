@@ -1,14 +1,17 @@
 import React from 'react';
 import './test.less'
+import {Button} from 'antd'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Button type='danger'>hehe</Button>
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        
         <a
           className="App-link"
           href="https://reactjs.org"
